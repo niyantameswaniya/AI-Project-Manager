@@ -1,0 +1,28 @@
+============================================
+  AI Project Manager - How to run (simple)
+============================================
+
+AB SIRF EK SERVER CHALANA HAI - Port 8000
+
+Step 1: Double-click  run.bat
+
+Step 2: Pehli baar thoda time lagega (frontend build hoga).
+        Jab dikhe: "Uvicorn running on http://127.0.0.1:8000"
+
+Step 3: Browser (Chrome/Edge) kholo aur open karo:
+        http://127.0.0.1:8000
+
+Step 4: Is CMD window ko BAND MAT karo - chalti rehni chahiye.
+
+--------------------------------------------
+Agar run.bat error de:
+--------------------------------------------
+- "python is not recognized"  -> Python install karo
+- "npm is not recognized"     -> Node.js install karo
+- Build fail                  -> CMD kholo, chalao:
+    cd c:\Users\ADMIN\Desktop\project_manager\frontend
+    npm install
+    npm run build
+  Phir dubara run.bat chalao.
+
+============================================
